@@ -103,6 +103,7 @@ if matricula == usuario_salvo and senha == senha_salvar:
     salario_liquido = salario_base - total_descontos
 
     print(f"Salario Base: R${salario_base:.2f} ")
+    print(f"Numero de Dependentes: {dependentes} ")
     print(f"Desconto INSS: R${desconto_inss:.2f} ")
     print(f"Desconto IRRF: R${desconto_irrf:.2f} ")
     print(f"Desconto Transporte: R${desconto_transporte:.2f} ")
